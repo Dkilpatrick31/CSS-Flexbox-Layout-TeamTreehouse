@@ -1,1 +1,6 @@
 /* ============= Page Styles ============= */
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
