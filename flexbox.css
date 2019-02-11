@@ -2,5 +2,18 @@
 
 .container {
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.item {
+  flex-grow: 1;
+}
+
+.item-1 {
+  flex-grow: 4;
+}
+
+
+.item-3 {
+  flex-grow: 2;
 }
