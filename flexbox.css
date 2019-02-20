@@ -2,19 +2,18 @@
 
 .container {
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .item-2 {
-  margin-right: auto;
+  /* margin-right: auto; */
 }
-/*
+
+.item-5 {
+  order: -1;
+}
+
 .item-1 {
-  flex-grow: 4;
+  order: -2;
 }
-
-
-.item-3 {
-  flex-grow: 2;
-} */
